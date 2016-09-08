@@ -15,6 +15,7 @@
 		78722D301D80F6FF00AC906C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78722D2E1D80F6FF00AC906C /* LaunchScreen.storyboard */; };
 		78722D3B1D80F6FF00AC906C /* KGHorizontalSteppersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78722D3A1D80F6FF00AC906C /* KGHorizontalSteppersTests.m */; };
 		78722D461D80F6FF00AC906C /* KGHorizontalSteppersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78722D451D80F6FF00AC906C /* KGHorizontalSteppersUITests.m */; };
+		78722D551D80F71500AC906C /* KGHorizontalStepProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 78722D541D80F71500AC906C /* KGHorizontalStepProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		78722D411D80F6FF00AC906C /* KGHorizontalSteppersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KGHorizontalSteppersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78722D451D80F6FF00AC906C /* KGHorizontalSteppersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGHorizontalSteppersUITests.m; sourceTree = "<group>"; };
 		78722D471D80F6FF00AC906C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78722D531D80F71500AC906C /* KGHorizontalStepProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGHorizontalStepProgress.h; sourceTree = "<group>"; };
+		78722D541D80F71500AC906C /* KGHorizontalStepProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHorizontalStepProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		78722D1F1D80F6FF00AC906C /* KGHorizontalSteppers */ = {
 			isa = PBXGroup;
 			children = (
+				78722D531D80F71500AC906C /* KGHorizontalStepProgress.h */,
+				78722D541D80F71500AC906C /* KGHorizontalStepProgress.m */,
 				78722D231D80F6FF00AC906C /* AppDelegate.h */,
 				78722D241D80F6FF00AC906C /* AppDelegate.m */,
 				78722D261D80F6FF00AC906C /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				78722D281D80F6FF00AC906C /* ViewController.m in Sources */,
 				78722D251D80F6FF00AC906C /* AppDelegate.m in Sources */,
+				78722D551D80F71500AC906C /* KGHorizontalStepProgress.m in Sources */,
 				78722D221D80F6FF00AC906C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
